@@ -4,7 +4,7 @@ spec:
     server: https://kubernetes.default.svc
   source:
     # HIGHLIGHT
-    repoURL: ${GITOPS_REPO_URL_ARGOCD}
+    repoURL: git@github.com:allamand/eks-workshop-v2.git
     # HIGHLIGHT
     targetRevision: main
 
